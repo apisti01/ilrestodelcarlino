@@ -80,11 +80,13 @@
                 </aside> <!-- end aside -->
 
                 <div class="content col-12 col-xl-8 p-0 p-md-2">
-
                     <div class="row">
+
+                        <!-- headline -->
                         <div class="headline col-12">
                             <div class="container-fluid row">
-                                <article class="article-content col-12 col-md-6">
+                                <article
+                                        class="article-content  with-bottom-border col-12 col-md-6 order-1 order-md-0 px-3 pt-2 ">
                                     <div class="article-annotation" style="color: #005ac7">
                                         <p>Città</p>
                                     </div>
@@ -103,19 +105,17 @@
                                         </a>
                                     </div>
                                 </article>
-                                <div class="article-img col-12 col-md-6 order-0 order-md-1">
-                                    <img src="res/ph500x300.png" alt="placeholder" style="aspect-ratio: 1.7">
+                                <div class=" col-12 col-md-6 order-0 order-md-1">
+                                    <img src="res/ph500x300.png" class="img-fluid" alt="placeholder"
+                                         style="aspect-ratio: 1.7">
                                 </div>
                             </div>
                         </div> <!-- end headline -->
 
-
-                        <div class="fill-line"></div>
-
                         <!-- some news divided in 2 after the headline -->
                         <div class="other-news col col-12 col-md-8">
                             <div class="container">
-                                <div class="row row-cols-1 row-cols-md-2">
+                                <div class="with-bottom-border row row-cols-1 row-cols-md-2">
                                     <article class="article article-card col mt-3">
                                         <div class="article-image">
                                             <img src="res/ph512x512.png" class="img-fluid" alt="Lorem">
@@ -144,7 +144,7 @@
                                             </div>
                                         </div>
                                     </article>
-                                    <article class="article article-card col mt-3">
+                                    <article class="article article-card with-left-border col mt-3">
                                         <div class="article-image">
                                             <img src="res/ph512x512.png" class="img-fluid" alt="Ipsum">
                                         </div>
@@ -175,7 +175,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="list-headlines col-0 col-md-4">
+                        <div class="list-headlines with-left-border with-bottom-border col-0 col-md-4">
                             <article class="article article-mini col">
                                 <div class="article-content px-3 pt-2">
                                     <div class="article-annotation">Lorem</div>
@@ -221,17 +221,745 @@
                         </div>
 
                         <!-- big article -->
-                        <div class="fill-line"></div>
-                        <article class="article article-inline container-fluid col-12">
-                            <p>Testo</p>
+                        <article class="article article-inline with-bottom-border container-fluid col-12">
+                            <div class="row">
+                                <div class="article-content col-12 col-md-8 order-1 order-md-0 px-3 pt-2 ">
+                                    <div class="article-annotation">Lorem</div>
+                                    <a class="article-title" href="#"><h2>Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. </h2></a>
+                                    <div class="article-description mt-2">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla velit
+                                        odio, congue ac metus in, aliquet tincidunt sapien. Etiam varius ex vel
+                                        mauris tempus, in faucibus nibh blandit. Proin aliquam laoreet dui eu
+                                        mollis. Pellentesque eleifend mauris felis, in dignissim arcu mattis
+                                        quis. Fusce elementum leo et facilisis condimentum. Nam tempor nibh
+                                        neque, id imperdiet nibh porttitor a. Proin lacinia vehicula sem eu
+                                        pretium.
+                                    </div>
+                                </div>
+                                <div class="article-image col-12 col-md-4 order-0 order-md-1 py-2">
+                                    <img src="res/ph512x512.png" class="img-fluid" alt="Lorem">
+                                </div>
+                            </div>
                         </article>
 
                         <!-- some news divided in 2 after the big article -->
-                        <div class="fill-line"></div>
                         <div class="other-news col-12 col-md-8">
-                            <p>Testo</p>
+                            <div class="container">
+                                <div class="row row-cols-1 row-cols-md-2">
+                                    <article class="article article-card with-bottom-border col mt-3">
+                                        <div class="article-image">
+                                            <img src="res/ph512x512.png" class="img-fluid"
+                                                 alt="Lorem">
+                                        </div>
+                                        <div class="article-content px-3 pt-2">
+                                            <div class="article-annotation">Cronaca</div>
+                                            <a class="article-title" href="#">
+                                                <h4>Articolone di Cronaca prova prova</h4>
+                                            </a>
+                                            <div class="article-correlated">
+                                                <a class="correlated-link" href="#">
+                                                    <b class="root">Articolo /</b>
+                                                    Correlato che parla di altro Lorem ipsum dolor sit amet, consectetur
+                                                </a>
+                                            </div>
+                                            <div class="article-description mt-2">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla velit
+                                                odio, congue ac metus in, aliquet tincidunt sapien. Etiam varius ex vel
+                                                mauris tempus, in faucibus nibh blandit. Proin aliquam laoreet dui eu
+                                                mollis. Pellentesque eleifend mauris felis, in dignissim arcu mattis
+                                                quis. Fusce elementum leo et facilisis condimentum. Nam tempor nibh
+                                                neque, id imperdiet nibh porttitor a. Proin lacinia vehicula sem eu
+                                                pretium.
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <article class="article article-card with-left-border with-bottom-border col mt-3">
+                                        <div class="article-image">
+                                            <img src="res/ph512x512.png" class="img-fluid" alt="Lorem">
+                                        </div>
+                                        <div class="article-content px-3 pt-2">
+                                            <div class="article-annotation">Evidenza</div>
+                                            <a class="article-title" href="#">
+                                                <h4>Articolo evidenza che parla di roba in evidenza</h4>
+                                            </a>
+                                            <div class="article-correlated">
+                                                <a class="correlated-link" href="#">
+                                                    <b class="root">Articolo /</b>
+                                                    Correlato che parla di altro Lorem ipsum dolor sit amet, consectetur
+                                                </a>
+                                            </div>
+                                            <div class="article-description mt-2">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a
+                                                luctus justo, dapibus interdum tellus. Aliquam sit amet turpis
+                                                nunc. Integer feugiat nibh lobortis mauris euismod, quis congue
+                                                odio consequat. Quisque ac tincidunt purus. Etiam vulputate
+                                                felis eu sapien eleifend, ut ultrices enim ornare. Phasellus nec
+                                                dui ultrices, pulvinar justo in, bibendum velit. Aliquam semper
+                                                risus ac faucibus commodo. Nulla risus risus, faucibus sit amet
+                                                tortor non, rhoncus congue urna. Vivamus in pharetra ligula.
+                                                Etiam ullamcorper tellus quis velit pulvinar aliquam. Interdum
+                                                et malesuada fames ac ante ipsum primis in faucibus.
+                                            </div>
+                                        </div>
+                                    </article>
+
+                                    <article
+                                            class="article article-inline with-bottom-border container-fluid col-12 col-md-12 mt-2">
+                                        <div class="row">
+                                            <div class="article-image col-12 col-md-6 py-2">
+                                                <img src="res/ph512x512.png" class="img-fluid"
+                                                     alt="Resto del Carlino">
+                                            </div>
+                                            <div class="article-content col-12 col-md-6 px-3 pt-2">
+                                                <div class="article-annotation">Politica</div>
+                                                <a class="article-title" href="#"><h4>Articolo di politica che parla di
+                                                    politica</h4></a>
+                                                <div class="article-description">
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a
+                                                    luctus justo, dapibus interdum tellus. Aliquam sit amet turpis
+                                                    nunc. Integer feugiat nibh lobortis mauris euismod, quis congue
+                                                    odio consequat. Quisque ac tincidunt purus. Etiam vulputate
+                                                    felis eu sapien eleifend, ut ultrices enim ornare. Phasellus nec
+                                                    dui ultrices, pulvinar justo in, bibendum velit. Aliquam semper
+                                                    risus ac faucibus commodo. Nulla risus risus, faucibus sit amet
+                                                    tortor non, rhoncus congue urna. Vivamus in pharetra ligula.
+                                                    Etiam ullamcorper tellus quis velit pulvinar aliquam. Interdum
+                                                    et malesuada fames ac ante ipsum primis in faucibus.
+                                                </div>
+                                                <div class="article-author mt-2">
+                                                    di
+                                                    <div class="author">Un tizio</div>
+                                                </div>
+                                            </div>
+                                            <div class="article-correlated col-12">
+                                                <a class="correlated-link mt-2" href="#">
+                                                    <b class="root">Articolo /</b>
+                                                    Correlato che parla di altro Lorem ipsum dolor sit amet, consectetur
+                                                </a>
+                                                <a class="correlated-link mt-2" href="#">
+                                                    <b class="root">Articolo /</b>
+                                                    Correlato che parla di altro Lorem ipsum dolor sit amet, consectetur
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </article>
+
+
+                                    <article
+                                            class="article article-inline with-bottom-border container-fluid col-12 col-md-12 mt-2">
+                                        <div class="row">
+                                            <div class="article-image col-12 col-md-6 py-2">
+                                                <img src="res/ph512x512.png" class="img-fluid" alt="cronaca">
+                                            </div>
+                                            <div class="article-content col-12 col-md-6 px-3 pt-2">
+                                                <div class="article-annotation">Cronaca</div>
+                                                <a class="article-title" href="#"><h4>Un altro articolo di cronaca che
+                                                    parla di cronaca, muore gente</h4></a>
+                                                <div class="article-description">
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a
+                                                    luctus justo, dapibus interdum tellus. Aliquam sit amet turpis
+                                                    nunc. Integer feugiat nibh lobortis mauris euismod, quis congue
+                                                    odio consequat. Quisque ac tincidunt purus. Etiam vulputate
+                                                    felis eu sapien eleifend, ut ultrices enim ornare. Phasellus nec
+                                                    dui ultrices, pulvinar justo in, bibendum velit. Aliquam semper
+                                                    risus ac faucibus commodo. Nulla risus risus, faucibus sit amet
+                                                    tortor non, rhoncus congue urna. Vivamus in pharetra ligula.
+                                                    Etiam ullamcorper tellus quis velit pulvinar aliquam. Interdum
+                                                    et malesuada fames ac ante ipsum primis in faucibus.
+                                                </div>
+                                                <div class="article-author mt-2">
+                                                    di
+                                                    <div class="author">Un tizio</div>
+                                                </div>
+                                            </div>
+                                            <div class="article-correlated col-12">
+                                                <a class="correlated-link mt-2" href="#">
+                                                    <b class="root">Articolo /</b>
+                                                    Correlato che parla di altro Lorem ipsum dolor sit amet, consectetur
+                                                </a>
+                                                <a class="correlated-link mt-2" href="#">
+                                                    <b class="root">Articolo /</b>
+                                                    Correlato che parla di altro Lorem ipsum dolor sit amet, consectetur
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <article class="article article-inline with-bottom-border container-fluid col mt-3"
+                                             style="width: 100%">
+                                        <div class="article-image">
+                                            <img src="res/ph512x512.png" class="img-fluid" alt="seriea">
+                                        </div>
+                                        <div class="article-content px-3 pt-2">
+                                            <div class="article-annotation">Roba seria</div>
+                                            <a class="article-title" href="#">
+                                                <h4>Articolo grosso che fa scalpore, con fotona!!</h4>
+                                            </a>
+                                            <div class="article-correlated">
+                                                <a class="correlated-link" href="#">
+                                                    <b class="root">Articolo /</b>
+                                                    Correlato che parla di altro Lorem ipsum dolor sit amet, consectetur
+                                                </a>
+                                            </div>
+                                            <div class="article-description mt-2">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a
+                                                luctus justo, dapibus interdum tellus. Aliquam sit amet turpis
+                                                nunc. Integer feugiat nibh lobortis mauris euismod, quis congue
+                                                odio consequat. Quisque ac tincidunt purus. Etiam vulputate
+                                                felis eu sapien eleifend, ut ultrices enim ornare. Phasellus nec
+                                                dui ultrices, pulvinar justo in, bibendum velit. Aliquam semper
+                                                risus ac faucibus commodo. Nulla risus risus, faucibus sit amet
+                                                tortor non, rhoncus congue urna. Vivamus in pharetra ligula.
+                                                Etiam ullamcorper tellus quis velit pulvinar aliquam. Interdum
+                                                et malesuada fames ac ante ipsum primis in faucibus.
+                                            </div>
+                                            <div class="article-correlated col-12">
+                                                <a class="correlated-link mt-2" href="#">
+                                                    <b class="root">Articolo /</b>
+                                                    Correlato che parla di altro Lorem ipsum dolor sit amet, consectetur
+                                                </a>
+                                                <a class="correlated-link mt-2" href="#">
+                                                    <b class="root">Articolo /</b>
+                                                    Correlato che parla di altro Lorem ipsum dolor sit amet, consectetur
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </article>
+
+                                    <article
+                                            class="article article-inline with-bottom-border container-fluid col-12 col-md-12 mt-2">
+                                        <div class="row">
+                                            <div class="article-image col-12 col-md-6 py-2">
+                                                <img src="res/ph512x512.png" class="img-fluid" alt="Lorem">
+                                            </div>
+                                            <div class="article-content col-12 col-md-6 px-3 pt-2">
+                                                <div class="article-annotation">attualità</div>
+                                                <a class="article-title" href="#"><h4>Roba successa da poco con molto
+                                                    scalpore, quasi interessante.</h4></a>
+                                                <div class="article-description">
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a
+                                                    luctus justo, dapibus interdum tellus. Aliquam sit amet turpis
+                                                    nunc. Integer feugiat nibh lobortis mauris euismod, quis congue
+                                                    odio consequat. Quisque ac tincidunt purus. Etiam vulputate
+                                                    felis eu sapien eleifend, ut ultrices enim ornare. Phasellus nec
+                                                    dui ultrices, pulvinar justo in, bibendum velit. Aliquam semper
+                                                    risus ac faucibus commodo. Nulla risus risus, faucibus sit amet
+                                                    tortor non, rhoncus congue urna. Vivamus in pharetra ligula.
+                                                    Etiam ullamcorper tellus quis velit pulvinar aliquam. Interdum
+                                                    et malesuada fames ac ante ipsum primis in faucibus.
+                                                </div>
+                                                <div class="article-author mt-2">
+                                                    di
+                                                    <div class="author">Un altro tizio</div>
+                                                </div>
+                                            </div>
+                                            <div class="article-correlated col-12">
+                                                <a class="correlated-link mt-2" href="#">
+                                                    <b class="root">Articolo /</b>
+                                                    Correlato che parla di altro Lorem ipsum dolor sit amet, consectetur
+                                                </a>
+                                                <a class="correlated-link mt-2" href="#">
+                                                    <b class="root">Articolo /</b>
+                                                    Correlato che parla di altro Lorem ipsum dolor sit amet, consectetur
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <article class="article article-inline container-fluid col-12 col-md-12 mt-2">
+                                        <div class="row">
+                                            <div class="article-image col-12 col-md-6 py-2">
+                                                <img src="res/ph512x512.png" class="img-fluid" alt="news">
+                                            </div>
+                                            <div class="article-content col-12 col-md-6 px-3 pt-2">
+                                                <div class="article-annotation">Cronaca</div>
+                                                <a class="article-title" href="#"><h4>Emergenza di qualcosa di serio,
+                                                    articolo importante</h4></a>
+                                                <div class="article-description">
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a
+                                                    luctus justo, dapibus interdum tellus. Aliquam sit amet turpis
+                                                    nunc. Integer feugiat nibh lobortis mauris euismod, quis congue
+                                                    odio consequat. Quisque ac tincidunt purus. Etiam vulputate
+                                                    felis eu sapien eleifend, ut ultrices enim ornare. Phasellus nec
+                                                    dui ultrices, pulvinar justo in, bibendum velit. Aliquam semper
+                                                    risus ac faucibus commodo. Nulla risus risus, faucibus sit amet
+                                                    tortor non, rhoncus congue urna. Vivamus in pharetra ligula.
+                                                    Etiam ullamcorper tellus quis velit pulvinar aliquam. Interdum
+                                                    et malesuada fames ac ante ipsum primis in faucibus.
+                                                </div>
+                                                <div class="article-author mt-2">
+                                                    di
+                                                    <div class="author">Un altro tizio</div>
+                                                </div>
+                                            </div>
+                                            <div class="article-correlated col-12">
+                                                <a class="correlated-link mt-2" href="#">
+                                                    <b class="root">Articolo /</b>
+                                                    Correlato che parla di altro Lorem ipsum dolor sit amet, consectetur
+                                                </a>
+                                                <a class="correlated-link mt-2" href="#">
+                                                    <b class="root">Articolo /</b>
+                                                    Correlato che parla di altro Lorem ipsum dolor sit amet, consectetur
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <section class="topic-articles-container col-12 col-md-12 p-2 mt-3">
+                                        <div class="section-logo">
+                                            <a href="#" style="text-align: left">
+                                                <img alt="QN Nuove Generazioni" class="img-fluid"
+                                                     src="res/logo-qn-nuovegen.png"
+                                                     style="height: 40%; width: 40%">
+                                            </a>
+                                        </div>
+
+                                        <div class="row row-cols-1 row-cols-md-2">
+                                            <article class="article article-card col mt-3">
+                                                <div class="article-image">
+                                                    <img src="res/ph512x512.png" class="img-fluid" alt="Lorem">
+                                                </div>
+                                                <div class="article-content px-3 pt-2">
+                                                    <div class="article-annotation">Lorem</div>
+                                                    <a class="article-title" href="#">
+                                                        <h4>AHHH le nuove generazioni non sanno fare nulla di buono,
+                                                            meglio noi</h4>
+                                                    </a>
+                                                    <div class="article-correlated">
+                                                        <a class="correlated-link" href="#">
+                                                            <b class="root">Articolo /</b>
+                                                            Correlato che parla di altro Lorem ipsum dolor sit amet,
+                                                            consectetur
+                                                        </a>
+                                                    </div>
+                                                    <div class="article-description mt-2">
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                                                        velit
+                                                        odio, congue ac metus in, aliquet tincidunt sapien. Etiam varius
+                                                        ex vel
+                                                        mauris tempus, in faucibus nibh blandit. Proin aliquam laoreet
+                                                        dui eu
+                                                        mollis. Pellentesque eleifend mauris felis, in dignissim arcu
+                                                        mattis
+                                                        quis. Fusce elementum leo et facilisis condimentum. Nam tempor
+                                                        nibh
+                                                        neque, id imperdiet nibh porttitor a. Proin lacinia vehicula sem
+                                                        eu
+                                                        pretium.
+                                                    </div>
+                                                </div>
+                                            </article>
+                                            <article class="article article-card with-left-border col mt-3">
+                                                <div class="article-image">
+                                                    <img src="res/ph512x512.png" class="img-fluid" alt="Ipsum">
+                                                </div>
+                                                <div class="article-content px-3 pt-2">
+                                                    <div class="article-annotation">Ipsum</div>
+                                                    <a class="article-title" href="#">
+                                                        <h4>Ma quanto sono simpatici i giovani che studiano e scappano
+                                                            all'estero</h4>
+                                                    </a>
+                                                    <div class="article-correlated">
+                                                        <a class="correlated-link" href="#">
+                                                            <b class="root">Articolo /</b>
+                                                            Correlato che parla di altro Lorem ipsum dolor sit amet,
+                                                            consectetur
+                                                        </a>
+                                                    </div>
+                                                    <div class="article-description mt-2">
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                                                        velit
+                                                        odio, congue ac metus in, aliquet tincidunt sapien. Etiam varius
+                                                        ex vel
+                                                        mauris tempus, in faucibus nibh blandit. Proin aliquam laoreet
+                                                        dui eu
+                                                        mollis. Pellentesque eleifend mauris felis, in dignissim arcu
+                                                        mattis
+                                                        quis. Fusce elementum leo et facilisis condimentum. Nam tempor
+                                                        nibh
+                                                        neque, id imperdiet nibh porttitor a. Proin lacinia vehicula sem
+                                                        eu
+                                                        pretium.
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                    </section>
+                                    <section class="topic-articles-container col-12 col-md-12 p-2 mt-3">
+                                        <h3 class="topic-articles-title py-2 pt-3"><a href="#">Dall'Italia e dal
+                                            Mondo</a></h3>
+
+                                        <article
+                                                class="article article-inline with-bottom-border container-fluid col-12 col-md-12 mt-2">
+                                            <div class="row">
+                                                <div class="article-image col-12 col-md-6 py-2">
+                                                    <img src="res/ph512x512.png" class="img-fluid" alt="Lorem">
+                                                </div>
+                                                <div class="article-content col-12 col-md-6 px-3 pt-2">
+                                                    <div class="article-annotation">Cronaca</div>
+                                                    <a class="article-title" href="#"><h4>Articolo dall'Italia e dal
+                                                        mondo</h4></a>
+                                                    <div class="article-description">
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a
+                                                        luctus justo, dapibus interdum tellus. Aliquam sit amet turpis
+                                                        nunc. Integer feugiat nibh lobortis mauris euismod, quis congue
+                                                        odio consequat. Quisque ac tincidunt purus. Etiam vulputate
+                                                        felis eu sapien eleifend, ut ultrices enim ornare. Phasellus nec
+                                                        dui ultrices, pulvinar justo in, bibendum velit. Aliquam semper
+                                                        risus ac faucibus commodo. Nulla risus risus, faucibus sit amet
+                                                        tortor non, rhoncus congue urna. Vivamus in pharetra ligula.
+                                                        Etiam ullamcorper tellus quis velit pulvinar aliquam. Interdum
+                                                        et malesuada fames ac ante ipsum primis in faucibus.
+                                                    </div>
+                                                    <div class="article-author mt-2">
+                                                        di
+                                                        <div class="author">Sempre un Tizio
+                                                            <div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="article-correlated col-12">
+                                                            <a class="correlated-link mt-2" href="#">
+                                                                <b class="root">Articolo /</b>
+                                                                Correlato che parla di altro Lorem ipsum dolor sit amet,
+                                                                consectetur
+                                                            </a>
+                                                            <a class="correlated-link mt-2" href="#">
+                                                                <b class="root">Articolo /</b>
+                                                                Correlato che parla di altro Lorem ipsum dolor sit amet,
+                                                                consectetur
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </article>
+                                        <article
+                                                class="article article-inline with-bottom-border container-fluid col-12 col-md-12 mt-2">
+                                            <div class="row">
+                                                <div class="article-image col-12 col-md-6 py-2">
+                                                    <img src="res/ph512x512.png" class="img-fluid" alt="Carlinoe">
+                                                </div>
+                                                <div class="article-content col-12 col-md-6 px-3 pt-2">
+                                                    <div class="article-annotation">Attualità</div>
+                                                    <a class="article-title" href="#"><h4>Attualità dall'Italia molto
+                                                        bella</h4></a>
+                                                    <div class="article-description">
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a
+                                                        luctus justo, dapibus interdum tellus. Aliquam sit amet turpis
+                                                        nunc. Integer feugiat nibh lobortis mauris euismod, quis congue
+                                                        odio consequat. Quisque ac tincidunt purus. Etiam vulputate
+                                                        felis eu sapien eleifend, ut ultrices enim ornare. Phasellus nec
+                                                        dui ultrices, pulvinar justo in, bibendum velit. Aliquam semper
+                                                        risus ac faucibus commodo. Nulla risus risus, faucibus sit amet
+                                                        tortor non, rhoncus congue urna. Vivamus in pharetra ligula.
+                                                        Etiam ullamcorper tellus quis velit pulvinar aliquam. Interdum
+                                                        et malesuada fames ac ante ipsum primis in faucibus.
+                                                    </div>
+                                                    <div class="article-author mt-2">
+                                                        di
+                                                        <div class="author">Un tizio</div>
+                                                    </div>
+                                                </div>
+                                                <div class="article-correlated col-12">
+                                                    <a class="correlated-link mt-2" href="#">
+                                                        <b class="root">Articolo /</b> Correlato che parla di altro
+                                                        Lorem ipsum dolor sit amet, consectetur
+                                                    </a>
+                                                    <a class="correlated-link mt-2" href="#">
+                                                        <b class="root">Articolo /</b>
+                                                        Correlato che parla di altro Lorem ipsum dolor sit amet, consectetur
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </article>
+                                        <article class="article article-inline container-fluid col-12 col-md-12 mt-2">
+                                            <div class="row">
+                                                <div class="article-image col-12 col-md-6 py-2">
+                                                    <img src="res/ph512x512.png" class="img-fluid" alt="Lorem">
+                                                </div>
+                                                <div class="article-content col-12 col-md-6 px-3 pt-2">
+                                                    <div class="article-annotation">Cronaca</div>
+                                                    <a class="article-title" href="#"><h4>Titolone che parla del mondo</h4></a>
+                                                    <div class="article-description">
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a
+                                                        luctus justo, dapibus interdum tellus. Aliquam sit amet turpis
+                                                        nunc. Integer feugiat nibh lobortis mauris euismod, quis congue
+                                                        odio consequat. Quisque ac tincidunt purus. Etiam vulputate
+                                                        felis eu sapien eleifend, ut ultrices enim ornare. Phasellus nec
+                                                        dui ultrices, pulvinar justo in, bibendum velit. Aliquam semper
+                                                        risus ac faucibus commodo. Nulla risus risus, faucibus sit amet
+                                                        tortor non, rhoncus congue urna. Vivamus in pharetra ligula.
+                                                        Etiam ullamcorper tellus quis velit pulvinar aliquam. Interdum
+                                                        et malesuada fames ac ante ipsum primis in faucibus.
+                                                    </div>
+                                                    <div class="article-author mt-2">
+                                                        di <div class="author">Sempronio</div>
+                                                    </div>
+                                                </div>
+                                                <div class="article-correlated col-12">
+                                                    <a class="correlated-link mt-2" href="#">
+                                                        <b class="root">Articolo /</b>
+                                                        Correlato che parla di altro Lorem ipsum dolor sit amet, consectetur
+                                                    </a>
+                                                    <a class="correlated-link mt-2" href="#">
+                                                        <b class="root">Articolo /</b>
+                                                        Correlato che parla di altro Lorem ipsum dolor sit amet, consectetur
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </article>
+
+                                    </section>
+                                    <section class="topic-articles-container col-12 col-md-12 p-2 mt-3">
+                                        <h3 class="topic-articles-title py-2 pt-3"><a href="#">Sport</a></h3>
+
+                                        <article class="article article-card with-bottom-border col mt-3">
+                                            <div class="article-image">
+                                                <img src="res/ph512x512.png" class="img-fluid" alt="lorem">
+                                            </div>
+                                            <div class="article-content px-3 pt-2">
+                                                <div class="article-annotation">Sport</div>
+                                                <a class="article-title" href="#">
+                                                    <h4>Sicuramente un articolo di Calcio</h4>
+                                                </a>
+                                                <div class="article-correlated">
+                                                    <a class="correlated-link" href="#">
+                                                        <b class="root">Articolo /</b>
+                                                        Correlato che parla di altro Lorem ipsum dolor sit amet, consectetur
+                                                    </a>
+                                                </div>
+                                                <div class="article-description mt-2">
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a
+                                                    luctus justo, dapibus interdum tellus. Aliquam sit amet turpis
+                                                    nunc. Integer feugiat nibh lobortis mauris euismod, quis congue
+                                                    odio consequat. Quisque ac tincidunt purus. Etiam vulputate
+                                                    felis eu sapien eleifend, ut ultrices enim ornare. Phasellus nec
+                                                    dui ultrices, pulvinar justo in, bibendum velit. Aliquam semper
+                                                    risus ac faucibus commodo. Nulla risus risus, faucibus sit amet
+                                                    tortor non, rhoncus congue urna. Vivamus in pharetra ligula.
+                                                    Etiam ullamcorper tellus quis velit pulvinar aliquam. Interdum
+                                                    et malesuada fames ac ante ipsum primis in faucibus.
+                                                </div>
+                                                <div class="article-correlated col-12">
+                                                    <a class="correlated-link mt-2" href="#">
+                                                        <b class="root">Articolo /</b>
+                                                        Correlato che parla di altro Lorem ipsum dolor sit amet, consectetur
+                                                    </a>
+                                                    <a class="correlated-link mt-2" href="#">
+                                                        <b class="root">Articolo /</b>
+                                                        Correlato che parla di altro Lorem ipsum dolor sit amet, consectetur
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </article>
+
+                                        <article
+                                                class="article article-inline with-bottom-border container-fluid col-12 col-md-12 mt-2">
+                                            <div class="row">
+                                                <div class="article-image col-12 col-md-6 py-2">
+                                                    <img src="res/ph512x512.png" class="img-fluid" alt="Lorem">
+                                                </div>
+                                                <div class="article-content col-12 col-md-6 px-3 pt-2">
+                                                    <div class="article-annotation">Sport</div>
+                                                    <a class="article-title" href="#"><h4>Altro articolo sul calcio figuriamoci</h4></a>
+                                                    <div class="article-description">
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a
+                                                        luctus justo, dapibus interdum tellus. Aliquam sit amet turpis
+                                                        nunc. Integer feugiat nibh lobortis mauris euismod, quis congue
+                                                        odio consequat. Quisque ac tincidunt purus. Etiam vulputate
+                                                        felis eu sapien eleifend, ut ultrices enim ornare. Phasellus nec
+                                                        dui ultrices, pulvinar justo in, bibendum velit. Aliquam semper
+                                                        risus ac faucibus commodo. Nulla risus risus, faucibus sit amet
+                                                        tortor non, rhoncus congue urna. Vivamus in pharetra ligula.
+                                                        Etiam ullamcorper tellus quis velit pulvinar aliquam. Interdum
+                                                        et malesuada fames ac ante ipsum primis in faucibus.
+                                                    </div>
+                                                    <div class="article-author mt-2">
+                                                        di
+                                                        <div class="author">Tizio a caso</div>
+                                                    </div>
+                                                </div>
+                                                <div class="article-correlated col-12">
+                                                    <a class="correlated-link mt-2" href="#">
+                                                        <b class="root">Articolo /</b>
+                                                        Correlato che parla di altro Lorem ipsum dolor sit amet, consectetur
+                                                    </a>
+                                                    <a class="correlated-link mt-2" href="#">
+                                                        <b class="root">Articolo /</b>
+                                                        Correlato che parla di altro Lorem ipsum dolor sit amet, consectetur
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </article>
+                                        <article
+                                                class="article article-inline with-bottom-border container-fluid col-12 col-md-12 mt-2">
+                                            <div class="row">
+                                                <div class="article-image col-12 col-md-6 py-2">
+                                                    <img src="res/ph512x512.png" class="img-fluid" alt="Lorem">
+                                                </div>
+                                                <div class="article-content col-12 col-md-6 px-3 pt-2">
+                                                    <div class="article-annotation">Sport</div>
+                                                    <a class="article-title" href="#"><h4>Forse un articolo sul tennis</h4></a>
+                                                    <div class="article-description">
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a
+                                                        luctus justo, dapibus interdum tellus. Aliquam sit amet turpis
+                                                        nunc. Integer feugiat nibh lobortis mauris euismod, quis congue
+                                                        odio consequat. Quisque ac tincidunt purus. Etiam vulputate
+                                                        felis eu sapien eleifend, ut ultrices enim ornare. Phasellus nec
+                                                        dui ultrices, pulvinar justo in, bibendum velit. Aliquam semper
+                                                        risus ac faucibus commodo. Nulla risus risus, faucibus sit amet
+                                                        tortor non, rhoncus congue urna. Vivamus in pharetra ligula.
+                                                        Etiam ullamcorper tellus quis velit pulvinar aliquam. Interdum
+                                                        et malesuada fames ac ante ipsum primis in faucibus.
+                                                    </div>
+                                                    <div class="article-author mt-2">
+                                                        di
+                                                        <div class="author">Un tizio</div>
+                                                    </div>
+                                                </div>
+                                                <div class="article-correlated col-12">
+                                                    <a class="correlated-link mt-2" href="#">
+                                                        <b class="root">Articolo /</b>
+                                                        Correlato che parla di altro Lorem ipsum dolor sit amet, consectetur
+                                                    </a>
+                                                    <a class="correlated-link mt-2" href="#">
+                                                        <b class="root">Articolo /</b>
+                                                        Correlato che parla di altro Lorem ipsum dolor sit amet, consectetur
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </article>
+                                        <article class="article article-inline container-fluid col-12 col-md-12 mt-2">
+                                            <div class="row">
+                                                <div class="article-image col-12 col-md-6 py-2">
+                                                    <img src="res/ph512x512.png" class="img-fluid" alt="Lorem">
+                                                </div>
+                                                <div class="article-content col-12 col-md-6 px-3 pt-2">
+                                                    <div class="article-annotation">Sport</div>
+                                                    <a class="article-title" href="#"><h4>Di nuovo un articolo sul calcio</h4></a>
+                                                    <div class="article-description">
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a
+                                                        luctus justo, dapibus interdum tellus. Aliquam sit amet turpis
+                                                        nunc. Integer feugiat nibh lobortis mauris euismod, quis congue
+                                                        odio consequat. Quisque ac tincidunt purus. Etiam vulputate
+                                                        felis eu sapien eleifend, ut ultrices enim ornare. Phasellus nec
+                                                        dui ultrices, pulvinar justo in, bibendum velit. Aliquam semper
+                                                        risus ac faucibus commodo. Nulla risus risus, faucibus sit amet
+                                                        tortor non, rhoncus congue urna. Vivamus in pharetra ligula.
+                                                        Etiam ullamcorper tellus quis velit pulvinar aliquam. Interdum
+                                                        et malesuada fames ac ante ipsum primis in faucibus.
+                                                    </div>
+                                                    <div class="article-author mt-2">
+                                                        di
+                                                        <div class="author">un tizio</div>
+                                                    </div>
+                                                </div>
+                                                <div class="article-correlated col-12">
+                                                    <a class="correlated-link mt-2" href="#">
+                                                        <b class="root">Articolo /</b>
+                                                        Correlato che parla di altro Lorem ipsum dolor sit amet, consectetur
+                                                    </a>
+                                                    <a class="correlated-link mt-2" href="#">
+                                                        <b class="root">Articolo /</b>
+                                                        Correlato che parla di altro Lorem ipsum dolor sit amet, consectetur
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </article>
+
+                                    </section>
+                                    <section class="col-12 col-md-12 p-2 mt-3"
+                                             style="background-color: rgba(0,90,200,.1); flex-direction: column; gap: 1rem">
+                                        <div class="section-logo">
+                                            <a href="#" style="text-align: left">
+                                                <img alt="QN Nuove Generazioni" class="img-fluid"
+                                                     src="res/qn-itinerari.png"
+                                                     style="height: 30%; width: 30%">
+                                            </a>
+                                        </div>
+
+                                        <article class="article article-card with-bottom-border col mt-3">
+                                            <div class="article-image">
+                                                <img src="res/ph512x512.png" class="img-fluid" alt="lorem">
+                                            </div>
+                                            <div class="article-content px-3 pt-2">
+                                                <div class="article-annotation">Cultura</div>
+                                                <a class="article-title" href="#">
+                                                    <h4>Itinerario cultura italiana e roba</h4>
+                                                </a>
+                                                <div class="article-correlated">
+                                                    <a class="correlated-link" href="#">
+                                                        <b class="root">Articolo /</b>
+                                                        Correlato che parla di altro Lorem ipsum dolor sit amet, consectetur
+                                                    </a>
+                                                </div>
+                                                <div class="article-description mt-2">
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a
+                                                    luctus justo, dapibus interdum tellus. Aliquam sit amet turpis
+                                                    nunc. Integer feugiat nibh lobortis mauris euismod, quis congue
+                                                    odio consequat. Quisque ac tincidunt purus. Etiam vulputate
+                                                    felis eu sapien eleifend, ut ultrices enim ornare. Phasellus nec
+                                                    dui ultrices, pulvinar justo in, bibendum velit. Aliquam semper
+                                                    risus ac faucibus commodo. Nulla risus risus, faucibus sit amet
+                                                    tortor non, rhoncus congue urna. Vivamus in pharetra ligula.
+                                                    Etiam ullamcorper tellus quis velit pulvinar aliquam. Interdum
+                                                    et malesuada fames ac ante ipsum primis in faucibus.
+                                                </div>
+                                                <div class="article-correlated col-12">
+                                                    <a class="correlated-link mt-2" href="#">
+                                                        <b class="root">Articolo /</b>
+                                                        Correlato che parla di altro Lorem ipsum dolor sit amet, consectetur
+                                                    </a>
+                                                    <a class="correlated-link mt-2" href="#">
+                                                        <b class="root">Articolo /</b>
+                                                        Correlato che parla di altro Lorem ipsum dolor sit amet, consectetur
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </article>
+                                        <article class="article article-inline container-fluid col-12 col-md-12 mt-2">
+                                            <div class="row">
+                                                <div class="article-image col-12 col-md-6 py-2">
+                                                    <img src="res/ph512x512.png" class="img-fluid" alt="Lorem">
+                                                </div>
+                                                <div class="article-content col-12 col-md-6 px-3 pt-2">
+                                                    <div class="article-annotation">Cultura</div>
+                                                    <a class="article-title" href="#"><h4>Itinerario natura e benessere</h4></a>
+                                                    <div class="article-description">
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a
+                                                        luctus justo, dapibus interdum tellus. Aliquam sit amet turpis
+                                                        nunc. Integer feugiat nibh lobortis mauris euismod, quis congue
+                                                        odio consequat. Quisque ac tincidunt purus. Etiam vulputate
+                                                        felis eu sapien eleifend, ut ultrices enim ornare. Phasellus nec
+                                                        dui ultrices, pulvinar justo in, bibendum velit. Aliquam semper
+                                                        risus ac faucibus commodo. Nulla risus risus, faucibus sit amet
+                                                        tortor non, rhoncus congue urna. Vivamus in pharetra ligula.
+                                                        Etiam ullamcorper tellus quis velit pulvinar aliquam. Interdum
+                                                        et malesuada fames ac ante ipsum primis in faucibus.
+                                                    </div>
+                                                    <div class="article-author mt-2">
+                                                        di
+                                                        <div class="author">Un tizio</div>
+                                                    </div>
+                                                </div>
+                                                <div class="article-correlated col-12">
+                                                    <a class="correlated-link mt-2" href="#">
+                                                        <b class="root">Articolo /</b>
+                                                        Correlato che parla di altro Lorem ipsum dolor sit amet, consectetur
+                                                    </a>
+                                                    <a class="correlated-link mt-2" href="#">
+                                                        <b class="root">Articolo /</b>
+                                                        Correlato che parla di altro Lorem ipsum dolor sit amet, consectetur
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </section>
+                                </div>
+                            </div>
                         </div>
-                        <div class="list-headlines col-0 col-md-4">
+
+
+                        <!-- the other headlines on the rights and other stuff -->
+                        <div class="list-headlines with-left-border col-0 col-md-4">
                             <p>Testo</p>
                         </div>
                     </div>
@@ -239,7 +967,7 @@
                 </div> <!-- end content -->
 
                 <aside class="advertisement p-0 d-none d-xl-flex col-xl-2 ">
-                    <img src="res/ph1140x1656.png" alt="placeholder">
+                    <img class="img-fluid" src="res/ph1140x1656.png" alt="placeholder">
                 </aside> <!-- end aside -->
 
             </div> <!-- end main-page -->
@@ -256,6 +984,7 @@
 <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
         crossorigin="anonymous"></script>
 <script src="js/bootstrap.js"></script>
+<script src="scripts.js"></script>
 <meta charset="utf-8">
 </body>
 </html>
