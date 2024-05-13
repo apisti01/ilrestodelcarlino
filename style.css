@@ -71,7 +71,7 @@ aside.advertisement img{
     top: 1rem;
     width: inherit;
     padding: 1rem;
-}*
+}*/
 
 /* actual page ---------------------------------------------------------------------*/
 
@@ -330,4 +330,9 @@ article.article .article-image-thin img {
 }
 .with-bottom-border {
     border-bottom: var(--color-default-border) solid 1px;
+}
+.article-date{
+    color: darkgray;
+font-size: 14px;
+
 }
