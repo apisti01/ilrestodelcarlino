@@ -130,6 +130,7 @@ ul.nav-list {
     align-content: center;
     align-items: center;
     flex-direction: row;
+    font-size: 16px;
 }
 .subscribe-link{
     color: var(--color-primary-text);
@@ -141,6 +142,19 @@ ul.nav-list {
     width: 100%;
     z-index: 1000;
     transition: top 0.3s;
+}
+
+.dropdown-hover:hover>.dropdown-menu {
+    display: inline-block;
+}
+
+.dropdown-hover>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+.list-group a{
+    background-color: #F5F8FB;
 }
 
 /* actual page ---------------------------------------------------------------------*/

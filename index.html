@@ -8,24 +8,9 @@
 </head>
 <body>
 
-<!-- TODO off canvas-->
-<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-    <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
-        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    </div>
-    <div class="offcanvas-body">
-        <ul>
-            <li>Home</li>
-            <li>News</li>
-            <li>Contatti</li>
-        </ul>
-    </div>
-</div>
-
 <div class="page">
 
-    <!-- TODO nav and mobile nav -->
+    <!-- TODO mobile nav -->
 
     <div class="page-container container-fluid px-0">
 
@@ -33,21 +18,16 @@
             <ul>
                 <li>
                     <ul class="nav-list">
-                        <li>
-                            <a href="#">
-                                <i class="bi bi-list"></i>
-                            </a>
-                        </li>
-                        <li><a href="#"><i class="bi bi-search"></i></a></li>
-                        <li><a href="#">Acquista il giornale</a></li>
+                        <li><a href="#"> &#x2630 </a></li>
+                        <li><a href="#">Menù</a></li>
                     </ul>
                 </li>
-                <li><a class="nav-title" href="https://apisti01.github.io/ilrestodelcarlino/">il Resto del Lorem</a></li>
+                <li><a class="nav-title" href="https://apisti01.github.io/ilrestodelcarlino/">il Resto del Lorem</a>
+                </li>
                 <li>
                     <ul class="nav-list">
-                        <li><a href="#">Accedi</a></li>
-                        <li><a class="subscribe-link border-start ps-3" href="#">Abbonati</a></li>
-                        <li><i class="link-secondary bi-arrow-right-circle-fill"></i></li>
+                        <li><a href="#">Acquista il giornale</a></li>
+                        <li><a class="subscribe-link with-left-border ps-3" href="#">Accedi</a></li>
                     </ul>
                 </li>
             </ul>
@@ -103,13 +83,74 @@
                 <a class="trending-news" href="#">Tizia tradita</a>
                 <a class="trending-news" href="#">Sagre maggio</a>
             </div> <!-- end trending -->
-            <nav class="main-nav">
-                <ul class="d-flex justify-content-around align-items-center flex-wrap p-0">
+            <nav class="main-nav navbar navbar-expand">
+                <ul class="d-flex container-fluid navbar-nav me-auto justify-content-around align-items-center flex-wrap p-0">
+                    <li class="nav-item dropdown dropdown-hover position-static">
+                        <a data-mdb-dropdown-init class="main-nav-options nav-link p-0" href="#"
+                           id="navbarDropdown" role="button"
+                           data-mdb-toggle="dropdown" aria-expanded="false">
+                            <button>Città <span class="rotate">&#x027A4;</span></button>
+                        </a>
+
+                        <!-- dropdown menu -->
+                        <div class="dropdown-menu w-100 mt-0" aria-labelledby="navbarDropdown" style="border-top-left-radius: 0;
+                            border-top-right-radius: 0; background-color: #F5F8FB;">
+                            <div class="container">
+                                <div class="row my-4">
+                                    <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                                        <div class="list-group list-group-flush">
+                                            <a href="" class="list-group-item list-group-item-action">Lorem ipsum</a>
+                                            <a href="" class="list-group-item list-group-item-action">Dolor sit</a>
+                                            <a href="" class="list-group-item list-group-item-action">Amet
+                                                consectetur</a>
+                                            <a href="" class="list-group-item list-group-item-action">Cras justo
+                                                odio</a>
+                                            <a href="" class="list-group-item list-group-item-action">Adipisicing
+                                                elit</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                                        <div class="list-group list-group-flush">
+                                            <a href="" class="list-group-item list-group-item-action">Explicabo
+                                                voluptas</a>
+                                            <a href="" class="list-group-item list-group-item-action">Perspiciatis
+                                                quo</a>
+                                            <a href="" class="list-group-item list-group-item-action">Cras justo
+                                                odio</a>
+                                            <a href="" class="list-group-item list-group-item-action">Laudantium
+                                                maiores</a>
+                                            <a href="" class="list-group-item list-group-item-action">Provident
+                                                dolor</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3 mb-3 mb-md-0">
+                                        <div class="list-group list-group-flush">
+                                            <a href="" class="list-group-item list-group-item-action">Iste quaerato</a>
+                                            <a href="" class="list-group-item list-group-item-action">Cras justo
+                                                odio</a>
+                                            <a href="" class="list-group-item list-group-item-action">Est iure</a>
+                                            <a href="" class="list-group-item list-group-item-action">Praesentium</a>
+                                            <a href="" class="list-group-item list-group-item-action">Laboriosam</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3">
+                                        <div class="list-group list-group-flush">
+                                            <a href="" class="list-group-item list-group-item-action">Cras justo
+                                                odio</a>
+                                            <a href="" class="list-group-item list-group-item-action">Saepe</a>
+                                            <a href="" class="list-group-item list-group-item-action">Vel alias</a>
+                                            <a href="" class="list-group-item list-group-item-action">Sunt doloribus</a>
+                                            <a href="" class="list-group-item list-group-item-action">Cum dolores</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- end dropdown menu -->
+
+
+                    </li>
                     <li><a class="main-nav-options" href="#">
-                        <button>Città <span class="rotate">&#x027A4;</span></button>
-                    </a></li>
-                    <li><a class="main-nav-options" href="#">
-                        <button>Speciali <span class="rotate">&#x027A4;</span></button>
+                        <button>Speciali</button>
                     </a></li>
                     <li><a class="main-nav-options" href="#">
                         <button>Altre</button>
@@ -186,7 +227,8 @@
                                         <div class="article-content px-3 pt-2">
                                             <div class="article-annotation">Lorem</div>
                                             <a class="article-title" href="#">
-                                                <h4>Articolo di blah blah blah, scandalo pazzesco per far arrabbiare qualcuno</h4>
+                                                <h4>Articolo di blah blah blah, scandalo pazzesco per far arrabbiare
+                                                    qualcuno</h4>
                                             </a>
                                             <div class="article-correlated">
                                                 <a class="correlated-link" href="#">
@@ -213,7 +255,8 @@
                                         <div class="article-content px-3 pt-2">
                                             <div class="article-annotation">Ipsum</div>
                                             <a class="article-title" href="#">
-                                                <h4>Lo sto scrivendo per ultimo e non ho più fantasia, uffi lorem ipsum ipsum lorem</h4>
+                                                <h4>Lo sto scrivendo per ultimo e non ho più fantasia, uffi lorem ipsum
+                                                    ipsum lorem</h4>
                                             </a>
                                             <div class="article-correlated">
                                                 <a class="correlated-link" href="#">
