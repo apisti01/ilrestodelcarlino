@@ -10,8 +10,6 @@
 
 <div class="page">
 
-    <!-- TODO mobile nav -->
-
     <div class="page-container container-fluid px-0">
 
         <nav id="appeared-nav" class="sticky-nav page-navigation d-none d-md-block">
@@ -33,7 +31,14 @@
             </ul>
         </nav>
 
-        <header class="header-and-nav p-0 col-12 col-xl-8 mx-auto">
+        <nav id="appeared-nav-mobile" class="sticky-nav page-navigation mobile-navigation-appeared mobile d-block d-md-none">
+            <ul class="nav-flex p-2">
+                <li><a class=" nav-title-mobile" href="#">Il Resto del Lorem</a></li>
+                <li><a href="#"> &#x2630 </a></li>
+            </ul>
+        </nav>
+
+        <header class="header-and-nav p-0 col-12 col-xl-8 mx-auto d-none d-md-block">
             <div class="top-row row">
                 <div class="col-2 d-flex"><b>Quotidiano Nazionale</b></div>
                 <div class="col-8"></div>
@@ -168,11 +173,44 @@
             </nav> <!-- end menu -->
         </header> <!-- end header -->
 
+        <header class="mobile-header-and-nav mobile d-block d-md-none">
+            <div class="header p-0">
+                <div class="p-0"><a href="#"><b class="quotidiano-naz">Quotidiano Nazionale</b></a></div>
+                <div class="p-0">
+                    <div class="p-0 px-1"><a href="#">&#x1F514</a></div>
+                    <div class="p-0 px-1 pe-2"><a class="subscribe-link" href="#">&#x1F464</a></div>
+                </div>
+            </div>
+            <div class="p-0">
+                <div class="p-1"><a class="nav-title nav-title-mobile p-0 pt-1" href="#">Il Resto del Lorem</a></div>
+                <div>
+                    <a class="abbonati p-2" href="#">Abbonati</a>
+                </div>
+            </div>
+            <nav class="main-nav navbar navbar-expand">
+                <ul class="d-flex container-fluid navbar-nav me-auto justify-content-around align-items-center flex-wrap p-0">
+                    <li><a class="main-nav-options" href="#">
+                        <button>Città</button>
+                    </a></li>
+                    <li><a class="main-nav-options" href="#">
+                        <button>Menu</button>
+                    </a></li>
+                    <li><a class="main-nav-options" href="#">
+                        <button>Lorem</button>
+                    </a></li>
+                    <li><a class="main-nav-options" href="#">
+                        <button>Ipsum</button>
+                    </a></li>
+                </ul>
+            </nav> <!-- end menu -->
+        </header>
+
+
         <div style="position: relative">
             <div class="top-adv row">
                 <div class="d-none d-xl-flex col-xl-2 p-0"></div>
                 <div class="advertisement top d-flex col-12 col-xl-8 p-0 align-items-center">
-                    <img src="res/ph500x60.png" alt="placeholder" class="mx-auto d-block w-100">
+                    <img src="res/top-adv.png" alt="placeholder" class="mx-auto d-block w-100">
                 </div> <!-- end top -->
                 <div class="d-none d-xl-flex col-xl-2 p-0"></div>
 
@@ -1369,7 +1407,6 @@
                     </div>
                 </div>
             </div>
-            <!-- TODO mobile footer-->
 
             <div class="col-xl-2 d-none d-xl-flex"></div>
 

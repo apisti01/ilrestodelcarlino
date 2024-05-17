@@ -78,10 +78,6 @@ aside.advertisement img {
 
 /* navigation ---------------------------------------------------------------------*/
 
-a.nav-title{
-    text-decoration: none !important;
-}
-
 .page-navigation {
     padding: 16px;
     overflow: hidden;
@@ -157,6 +153,92 @@ ul.nav-list {
     background-color: #F5F8FB;
 }
 
+.nav-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.mobile-navigation-appeared{
+    padding: 0;
+    background-color: var(--color-primary-bg);
+    transition: top 0.3s;
+}
+
+.mobile-navigation-appeared a{
+    color: white;
+}
+
+.mobile-navigation-appeared a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-title-mobile{
+    color: white;
+    font-family: "Abyssinica SIL", sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+
+.nav-flex li {
+    text-align: center; /* Center the text inside each li */
+}
+
+.nav-flex li:first-child {
+    text-align: left; /* Align the first item to the left */
+}
+
+.nav-flex li:last-child {
+    margin-left: auto;
+    text-align: right; /* Align the last item to the right */
+}
+
+.mobile-header-and-nav{
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    background-color: var(--color-primary-bg);
+    font-size: 1.5rem !important;
+}
+
+.mobile-header-and-nav div{
+    padding: 16px;
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.mobile-header-and-nav .nav-title{
+    color: var(--color-white-text);
+    font-size: 1.7rem !important;
+    font-family: "Abyssinica SIL", sans-serif;
+    padding-bottom: 0;
+}
+
+.quotidiano-naz{
+    font-family: "Abyssinica SIL", sans-serif;
+    color: lightgrey;
+    font-size: 20px;
+}
+.quotidiano-naz:hover{
+    text-decoration: none;
+}
+
+.abbonati{
+    background-color: #6ea8fe;
+    color: white;
+    font-size: 12px;
+    border-radius: 25px;
+}
+.abbonati:hover{
+    text-decoration: none;
+    color: white;
+}
 /* actual page ---------------------------------------------------------------------*/
 
 .headline {
@@ -278,7 +360,6 @@ button {
 }
 
 .main-nav-options button {
-    min-width: 10rem;
     border: darkgray 0.5px solid;
     background-color: transparent;
     cursor: pointer;
